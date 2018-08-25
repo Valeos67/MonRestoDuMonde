@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B6B4A3892131C2AA0027D377 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3882131C2AA0027D377 /* AppDelegate.swift */; };
-		B6B4A38B2131C2AA0027D377 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A38A2131C2AA0027D377 /* ViewController.swift */; };
 		B6B4A38E2131C2AB0027D377 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A38C2131C2AB0027D377 /* Main.storyboard */; };
 		B6B4A3902131C2AD0027D377 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A38F2131C2AD0027D377 /* Assets.xcassets */; };
 		B6B4A3932131C2AD0027D377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A3912131C2AD0027D377 /* LaunchScreen.storyboard */; };
+		B6B4A3A02131C5920027D377 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A39F2131C5920027D377 /* MenuController.swift */; };
+		B6B4A3A22131C5E20027D377 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3A12131C5E20027D377 /* ALaCarteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6B4A3852131C2AA0027D377 /* MonRestoDuMonde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonRestoDuMonde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B4A3882131C2AA0027D377 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6B4A38A2131C2AA0027D377 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6B4A38D2131C2AB0027D377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6B4A38F2131C2AD0027D377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6B4A3922131C2AD0027D377 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6B4A3942131C2AD0027D377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6B4A39F2131C5920027D377 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		B6B4A3A12131C5E20027D377 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		B6B4A3872131C2AA0027D377 /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				B6B4A39A2131C4DC0027D377 /* Model */,
+				B6B4A39E2131C5280027D377 /* View */,
+				B6B4A39C2131C4EC0027D377 /* Controller */,
 				B6B4A3882131C2AA0027D377 /* AppDelegate.swift */,
-				B6B4A38A2131C2AA0027D377 /* ViewController.swift */,
 				B6B4A38C2131C2AB0027D377 /* Main.storyboard */,
 				B6B4A38F2131C2AD0027D377 /* Assets.xcassets */,
 				B6B4A3912131C2AD0027D377 /* LaunchScreen.storyboard */,
 				B6B4A3942131C2AD0027D377 /* Info.plist */,
 			);
 			path = MonRestoDuMonde;
+			sourceTree = "<group>";
+		};
+		B6B4A39A2131C4DC0027D377 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6B4A39C2131C4EC0027D377 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6B4A39F2131C5920027D377 /* MenuController.swift */,
+				B6B4A3A12131C5E20027D377 /* ALaCarteController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6B4A39E2131C5280027D377 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B4A38B2131C2AA0027D377 /* ViewController.swift in Sources */,
+				B6B4A3A02131C5920027D377 /* MenuController.swift in Sources */,
 				B6B4A3892131C2AA0027D377 /* AppDelegate.swift in Sources */,
+				B6B4A3A22131C5E20027D377 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
