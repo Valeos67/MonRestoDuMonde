@@ -17,6 +17,8 @@
 		B6B4A3A72131C8A80027D377 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3A62131C8A80027D377 /* Constants.swift */; };
 		B6B4A3A92131CABA0027D377 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3A82131CABA0027D377 /* MonNav.swift */; };
 		B6B4A3AB2131D21F0027D377 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3AA2131D21F0027D377 /* MenuCell.swift */; };
+		B6B4A3AD2131D6A50027D377 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3AC2131D6A50027D377 /* Plat.swift */; };
+		B6B4A3AF2131D6DC0027D377 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3AE2131D6DC0027D377 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B6B4A3A62131C8A80027D377 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B6B4A3A82131CABA0027D377 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		B6B4A3AA2131D21F0027D377 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		B6B4A3AC2131D6A50027D377 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		B6B4A3AE2131D6DC0027D377 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		B6B4A39A2131C4DC0027D377 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B6B4A3AC2131D6A50027D377 /* Plat.swift */,
+				B6B4A3AE2131D6DC0027D377 /* Enums.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				B6B4A3A92131CABA0027D377 /* MonNav.swift in Sources */,
 				B6B4A3892131C2AA0027D377 /* AppDelegate.swift in Sources */,
 				B6B4A3A42131C85A0027D377 /* MonTabBarController.swift in Sources */,
+				B6B4A3AD2131D6A50027D377 /* Plat.swift in Sources */,
+				B6B4A3AF2131D6DC0027D377 /* Enums.swift in Sources */,
 				B6B4A3A22131C5E20027D377 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
