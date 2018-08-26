@@ -43,4 +43,8 @@ class Plat {
         self._image = image
     }
     
+    
+    
+    
+    
 }

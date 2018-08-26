@@ -16,6 +16,7 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     let cellID = "MenuCell"
     
+    var menus = [Menu]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +26,16 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
         CollectionView.delegate = self
         CollectionView.dataSource = self
         
+        
+        menus = LesPlats.obtenir.lesMenus()
+        CollectionView.reloadData()
+        
+        
+        
     }
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return menus.count
 
     }
     
