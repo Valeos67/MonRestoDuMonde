@@ -22,6 +22,8 @@
 		B6B4A3B1213300680027D377 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3B0213300680027D377 /* Menu.swift */; };
 		B6B4A3B3213301C50027D377 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3B2213301C50027D377 /* LesPlats.swift */; };
 		B6B4A3B5213309330027D377 /* gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3B4213309330027D377 /* gradient.swift */; };
+		B6B4A3B721330C8D0027D377 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3B621330C8D0027D377 /* PlatCell.swift */; };
+		B6B4A3B921330E840027D377 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3B821330E840027D377 /* ALaCarte.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		B6B4A3B0213300680027D377 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		B6B4A3B2213301C50027D377 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 		B6B4A3B4213309330027D377 /* gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradient.swift; sourceTree = "<group>"; };
+		B6B4A3B621330C8D0027D377 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
+		B6B4A3B821330E840027D377 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				B6B4A3AE2131D6DC0027D377 /* Enums.swift */,
 				B6B4A3B0213300680027D377 /* Menu.swift */,
 				B6B4A3B2213301C50027D377 /* LesPlats.swift */,
+				B6B4A3B821330E840027D377 /* ALaCarte.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 			children = (
 				B6B4A3AA2131D21F0027D377 /* MenuCell.swift */,
 				B6B4A3B4213309330027D377 /* gradient.swift */,
+				B6B4A3B621330C8D0027D377 /* PlatCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -200,8 +206,10 @@
 				B6B4A3AB2131D21F0027D377 /* MenuCell.swift in Sources */,
 				B6B4A3A72131C8A80027D377 /* Constants.swift in Sources */,
 				B6B4A3A02131C5920027D377 /* MenuController.swift in Sources */,
+				B6B4A3B721330C8D0027D377 /* PlatCell.swift in Sources */,
 				B6B4A3A92131CABA0027D377 /* MonNav.swift in Sources */,
 				B6B4A3B1213300680027D377 /* Menu.swift in Sources */,
+				B6B4A3B921330E840027D377 /* ALaCarte.swift in Sources */,
 				B6B4A3892131C2AA0027D377 /* AppDelegate.swift in Sources */,
 				B6B4A3B3213301C50027D377 /* LesPlats.swift in Sources */,
 				B6B4A3B5213309330027D377 /* gradient.swift in Sources */,

@@ -32,7 +32,7 @@ class MenuCell: UICollectionViewCell {
     imageDuMenu.layer.borderWidth = 2
     imageDuMenu.layer.borderColor = GRIS_TRES_CLAIR.cgColor
     
-    nomDuMenu.text = "Menu" + self.menu.pays
+    nomDuMenu.text = "Menu " + self.menu.pays
     nomDuMenu.textColor = GRIS_TRES_FONCE
     nomDuMenu.font = FONT_DE_BASE
     nomDuMenu.adjustsFontSizeToFitWidth = true
