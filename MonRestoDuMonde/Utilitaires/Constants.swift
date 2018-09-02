@@ -12,7 +12,7 @@ let NOIR = UIColor.black
 let GRIS_TRES_FONCE = UIColor(red: 30 / 255, green: 30 / 255, blue: 30 / 255, alpha: 1)
 let GRIS_TRES_CLAIR = UIColor(red: 240 / 255, green: 240 / 255, blue: 240 / 255, alpha: 1)
 
-let FONT_DE_BASE = UIFont(name: "ChalkDuster", size: 20)
+let FONT_DE_BASE = UIFont(name: "Nunito", size: 20)
 
 
 let ITALIE = "Italien"
