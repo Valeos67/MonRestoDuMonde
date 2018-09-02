@@ -15,6 +15,7 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     
     let cellID = "MenuCell"
+    let segueID = "VersDetails"
     
     var menus = [Menu]()
 
@@ -65,6 +66,20 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return 10
     }
     
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let menu = menus[indexPath.item]
+        performSegue(withIdentifier: segueID, sender: menu)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueID {
+            if let detail = segue.destination as? DetailsController {
+                detail.menu = sender as? Menu
+            }
+        }
+        
+    }
 }
 
 
