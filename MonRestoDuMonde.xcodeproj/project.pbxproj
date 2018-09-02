@@ -40,6 +40,7 @@
 		B6B4A3D82136EC6A0027D377 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A3C92136EC690027D377 /* Nunito-Italic.ttf */; };
 		B6B4A3D92136EC6A0027D377 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6B4A3CA2136EC690027D377 /* Nunito-LightItalic.ttf */; };
 		B6B4A3DB213BEE580027D377 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3DA213BEE580027D377 /* DetailsController.swift */; };
+		B6B4A3DD213C360B0027D377 /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4A3DC213C360B0027D377 /* PlatVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		B6B4A3C92136EC690027D377 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
 		B6B4A3CA2136EC690027D377 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
 		B6B4A3DA213BEE580027D377 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		B6B4A3DC213C360B0027D377 /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				B6B4A3AA2131D21F0027D377 /* MenuCell.swift */,
 				B6B4A3B4213309330027D377 /* gradient.swift */,
 				B6B4A3B621330C8D0027D377 /* PlatCell.swift */,
+				B6B4A3DC213C360B0027D377 /* PlatVue.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				B6B4A3B921330E840027D377 /* ALaCarte.swift in Sources */,
 				B6B4A3DB213BEE580027D377 /* DetailsController.swift in Sources */,
 				B6B4A3892131C2AA0027D377 /* AppDelegate.swift in Sources */,
+				B6B4A3DD213C360B0027D377 /* PlatVue.swift in Sources */,
 				B6B4A3B3213301C50027D377 /* LesPlats.swift in Sources */,
 				B6B4A3B5213309330027D377 /* gradient.swift in Sources */,
 				B6B4A3A42131C85A0027D377 /* MonTabBarController.swift in Sources */,
